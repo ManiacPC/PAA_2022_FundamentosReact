@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Test from './components/Test';
 import ListaTareas from './components/ListaTareas';
 import Equipo from './components/Equipo'
+import Funcion from './components/Funcion'
 import './custom.css'
 
 
@@ -26,6 +27,7 @@ export default class App extends Component {
             <Route path='/login' component={Login} />
             <Route path='/tareas' component={ListaTareas} />
             <Route path='/equipo' component={Equipo} />
+            <Route path='/funcion' component={Funcion} />
       </Layout>
     );
   }

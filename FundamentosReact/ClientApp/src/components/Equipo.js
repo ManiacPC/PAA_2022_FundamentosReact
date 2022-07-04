@@ -21,7 +21,7 @@ const Equipo = () => {
                         imagen={ImagenPerfil2}
                         titulo={`Pepe Lota`}
                         descripcion="Jugador de fútbol semiprofesional"
-                    />                    
+                    />
                 </div>
                 <div className="col-3">
                     <IntegranteFragment
