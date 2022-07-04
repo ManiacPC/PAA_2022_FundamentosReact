@@ -8,6 +8,7 @@ import Perfil from './components/Perfil'
 import Login from './components/Login';
 import Test from './components/Test';
 import ListaTareas from './components/ListaTareas';
+import Equipo from './components/Equipo'
 import './custom.css'
 
 
@@ -24,6 +25,7 @@ export default class App extends Component {
             <Route path='/test' component={Test} />
             <Route path='/login' component={Login} />
             <Route path='/tareas' component={ListaTareas} />
+            <Route path='/equipo' component={Equipo} />
       </Layout>
     );
   }
