@@ -1,5 +1,6 @@
 ﻿import React, { useState, useEffect } from 'react'
 import FuncionFragment from './Fragments/FuncionFragment'
+import { Link } from 'react-router-dom'
 
 const Funcion = () => {
     const [nombre, setNombre] = useState("")
@@ -23,6 +24,7 @@ const Funcion = () => {
     return (
         <>
             <h1>Funciones ejemplo</h1>
+            <Link to={`/equipo`}>Dirigirse a "Equipo"</Link>            
 
             <div className="row">
                 <div className="col-12">
