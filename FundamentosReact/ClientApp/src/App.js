@@ -10,6 +10,8 @@ import Test from './components/Test';
 import ListaTareas from './components/ListaTareas';
 import Equipo from './components/Equipo'
 import Funcion from './components/Funcion'
+import Usuarios from './components/Usuarios'
+
 import './custom.css'
 
 
@@ -28,6 +30,7 @@ export default class App extends Component {
             <Route path='/tareas' component={ListaTareas} />
             <Route path='/equipo' component={Equipo} />
             <Route path='/funcion' component={Funcion} />
+            <Route path='/usuarios' component={Usuarios} />
       </Layout>
     );
   }
